@@ -17,7 +17,7 @@ const Login = () => {
     setErr("");
 
     axios
-      .post("http://localhost:5000/login", {
+      .post("https://netflixbackend-82oq.onrender.com/login", {
         username: email,
         password: password,
       })
